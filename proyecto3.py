@@ -78,7 +78,7 @@ def pegar():
 def Datos():
     
 	vdatos = Toplevel(raiz)
-	vdatos.geometry("360x130+460+450")
+	vdatos.geometry("360x155+460+350")
     
 
 	Label(vdatos,text="Proyecto III Interfaz grafica").pack()
@@ -87,6 +87,7 @@ def Datos():
 	Label(vdatos,text="Carnet: 7690-22-3891 Kevin Cos").pack()
 	Label(vdatos,text="Carnet: 7690-22-14922 Ruth Damian").pack()
 	Label(vdatos,text="Carnet: 7690-22-17518 Jose Samayoa").pack()
+	Label(vdatos,text="https://github.com/Crosvy/PROYECTO3").pack()
     
  
 #Manejar cuando se cierra el programa
